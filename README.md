@@ -1,87 +1,158 @@
-# Welcome to React Router!
+# 🏠 Roomify – AI Interior Design Visualizer
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Roomify is an AI-powered web application that transforms room photos into beautifully redesigned interiors. Upload an image of any room, choose a design style, and let AI generate a realistic visualization of your space in seconds.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+Built with **React Router v8**, **React 19**, **TypeScript**, **Tailwind CSS v4**, and **Puter.js**, Roomify delivers a fast, modern, and intuitive user experience.
 
-## Features
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![React Router](https://img.shields.io/badge/React_Router-v8-CA4245?logo=reactrouter)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![Tailwind CSS](https://img.shields.io/badge/TailwindCSS-v4-38BDF8?logo=tailwindcss)
+![Vite](https://img.shields.io/badge/Vite-8-646CFF?logo=vite)
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+---
 
-## Getting Started
+## 🚀 Live Demo
 
-### Installation
+**🌐 https://roomify-sage.vercel.app/**
 
-Install the dependencies:
+---
+
+## 📂 Repository
+
+**GitHub:** https://github.com/Dsaar/roomify
+
+---
+
+# ✨ Features
+
+- 🏠 Upload photos of your room
+- 🤖 AI-powered interior redesign
+- 🎨 Multiple room styles and design options
+- ⚡ Fast image generation
+- 🔄 Before & after image comparison
+- 📱 Fully responsive interface
+- 🎯 Modern and intuitive user experience
+- ☁️ Cloud-powered AI processing
+- ⚛️ Built with reusable React components
+
+---
+
+# 🛠 Tech Stack
+
+- React 19
+- React Router v8
+- TypeScript
+- Vite
+- Tailwind CSS v4
+- Puter.js
+- Lucide React
+
+---
+
+# 📁 Project Structure
+
+```text
+app/
+├── routes/
+├── root.tsx
+├── routes.ts
+└── app.css
+
+components/
+├── ui/
+├── Navbar.tsx
+└── Upload.tsx
+
+lib/
+├── ai.action.ts
+├── puter.action.ts
+├── constants.ts
+└── utils.ts
+
+public/
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/Dsaar/roomify.git
+```
+
+Navigate to the project
+
+```bash
+cd roomify
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+Run the development server
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
+Build for production
 
 ```bash
 npm run build
 ```
 
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
+Start the production server
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+npm start
 ```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
 
 ---
 
-Built with ❤️ using React Router.
+# 🎯 What I Learned
+
+This project helped me gain practical experience with:
+
+- Building applications using React Router v8
+- Developing with TypeScript
+- Integrating AI-powered image generation
+- Managing file uploads and image processing
+- Creating reusable React components
+- Building responsive user interfaces with Tailwind CSS
+- Working with Puter.js cloud services
+- Organizing scalable project architecture
+
+---
+
+# 📈 Future Improvements
+
+- 🎨 More interior design styles
+- 🛋️ Furniture customization
+- 💾 Save design history
+- ❤️ Favorite generated designs
+- 📤 Share designs on social media
+- 🌙 Dark mode
+- ♿ Improved accessibility
+- ⚡ Faster AI generation and image optimization
+
+---
+
+# 👨‍💻 Author
+
+**Daniel Saar**
+
+- GitHub: https://github.com/Dsaar
+- LinkedIn: *https://www.linkedin.com/in/daniel-josh-saar*
+- Portfolio: *https://danielsaar-portfolio.vercel.app*
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
