@@ -1,6 +1,6 @@
 # 🏠 Roomify – AI Interior Design Visualizer
 
-Roomify is an AI-powered web application that transforms room photos into beautifully redesigned interiors. Upload an image of any room, choose a design style, and let AI generate a realistic visualization of your space in seconds.
+Roomify is an AI-powered web application that transforms 2D floor plans into beautifully redesigned 3D interiors. Upload an image of any room, and let AI generate a realistic visualization of your space in seconds.
 
 Built with **React Router v8**, **React 19**, **TypeScript**, **Tailwind CSS v4**, and **Puter.js**, Roomify delivers a fast, modern, and intuitive user experience.
 
